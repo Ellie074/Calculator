@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApplication3
 {
-    class CalculatorFactory
+    public static class CalculatorFactory
     {
         public static ICalculator CreateCalculator(string name)
         {

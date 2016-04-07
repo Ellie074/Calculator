@@ -44,7 +44,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Addition.cs" />
     <Compile Include="AdditionCalculator.cs" />
     <Compile Include="CalculatorFactory.cs" />
     <Compile Include="Division.cs" />
