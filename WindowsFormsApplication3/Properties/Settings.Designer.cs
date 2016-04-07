@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Calculator_Pin_141.Properties
+namespace WindowsFormsApplication3.Properties
 {
 
 
