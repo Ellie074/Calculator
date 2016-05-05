@@ -25,5 +25,27 @@ namespace WindowsFormsApplication3
             double result = calculator.Calculate(first, second);
             textBox3.Text = result.ToString();
         }
+
+        private void CalculateOne(object sender, EventArgs e)
+        {
+            double first = Convert.ToDouble(textBox1.Text);
+          
+            IOneCalculator calculator = CalculatorFactoryOne.CreateCalculatorOne(((Button)sender).Name);
+            double result = calculator.Calculate(first);
+            textBox3.Text = result.ToString();
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+            textBox2.Text = "";
+            textBox3.Text = "";
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

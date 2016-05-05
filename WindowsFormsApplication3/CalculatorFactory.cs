@@ -21,6 +21,10 @@ namespace WindowsFormsApplication3
                     return new MultiplicationCalculator();
                 case "button4":
                     return new DivisionCalculator();
+                case "button6" :
+                    return new InvolutionCalculator();
+                case "button11":
+                    return new LogTwoCalculator();
                 default:
                     throw new Exception("error");
 
