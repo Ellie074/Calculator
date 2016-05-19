@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsFormsApplication3.OneArgument;
+using WindowsFormsApplication3.TwoArguments;
 
 namespace WindowsFormsApplication3
 {
