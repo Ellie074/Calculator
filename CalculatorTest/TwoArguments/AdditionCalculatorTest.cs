@@ -11,12 +11,14 @@ namespace CalculatorTest.TwoArguments
 {
     class AdditionCalculatorTest
     {
-        [Test]
-        public void AdditionTest()
+        [TestCase(1, 2, 3)]
+        [TestCase(3, 1, 4)]
+        [TestCase(3, 2, 5)]
+        public void AdditionTest(double first, double second, double expected)
         {
             ICalculator calc = new AdditionCalculator();
-            double result = calc.Calculate(2, 5);
-            Assert.AreEqual(7, result, 0.00001);
+            double result = calc.Calculate(first, second);
+            Assert.AreEqual(expected, result, 0.00001);
         }    
     }
 

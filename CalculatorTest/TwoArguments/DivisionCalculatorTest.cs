@@ -11,12 +11,14 @@ namespace CalculatorTest.TwoArguments
 {
     class DivisionCalculatorTest
     {
-        [Test]
-        public void DivisionTest()
+        [TestCase(1,2,0.5)]
+        [TestCase(2, 1, 2)]
+        [TestCase(3, 2, 1.5)]
+        public void DivisionTest(double first, double second, double expected)
         {
             ICalculator calc = new DivisionCalculator();
-            double result = calc.Calculate(2, 1);
-            Assert.AreEqual(2, result, 0.00001);
+            double result = calc.Calculate(first, second);
+            Assert.AreEqual(expected, result, 0.00001);
         }    
     }
 

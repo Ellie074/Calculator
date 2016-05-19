@@ -11,12 +11,14 @@ namespace CalculatorTest.TwoArguments
 {
     class MultiplicationCalculatorTest
     {
-        [Test]
-        public void MultiplicationTest()
+        [TestCase(1, 2, 2)]
+        [TestCase(2, 1, 2)]
+        [TestCase(3, 2, 6)]
+        public void MultiplicationTest(double first, double second, double expected)
         {
             ICalculator calc = new MultiplicationCalculator();
-            double result = calc.Calculate(2, 3);
-            Assert.AreEqual(6, result, 0.00001);
+            double result = calc.Calculate( first, second);
+            Assert.AreEqual(expected, result, 0.00001);
         }    
     }
 }
