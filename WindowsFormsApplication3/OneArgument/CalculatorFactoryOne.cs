@@ -2,6 +2,9 @@
 
 namespace WindowsFormsApplication3.OneArgument
 {
+    /// <summary>
+    /// factory for One argument calculaor
+    /// </summary>
     public static class CalculatorFactoryOne
     {
 

@@ -1,5 +1,8 @@
 ﻿namespace WindowsFormsApplication3.TwoArguments
 {
+    /// <summary>
+    /// function adds two numbers
+    /// </summary>
     public class AdditionCalculator: ICalculator
 
 {

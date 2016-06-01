@@ -2,6 +2,9 @@
 
 namespace WindowsFormsApplication3.OneArgument
 {
+   /// <summary>
+   /// the calculation of the cotangent
+   /// </summary>
     public class CtgCalculator : IOneCalculator
     {
         public double Calculate(double first)

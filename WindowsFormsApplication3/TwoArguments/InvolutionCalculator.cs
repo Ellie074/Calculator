@@ -2,6 +2,9 @@
 
 namespace WindowsFormsApplication3.TwoArguments
 {
+    /// <summary>
+    /// involution n
+    /// </summary>
     public class InvolutionCalculator : ICalculator
 
     {

@@ -2,6 +2,9 @@
 
 namespace WindowsFormsApplication3.TwoArguments
 {
+    /// <summary>
+    /// factory for Two argument calculaor
+    /// </summary>
     public static class CalculatorFactory
     {
         public static ICalculator CreateCalculator(string name)

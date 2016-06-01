@@ -1,5 +1,8 @@
 ﻿namespace WindowsFormsApplication3.OneArgument
 {
+    /// <summary>
+    /// factorial calculation
+    /// </summary>
     public class FactorialCalculator : IOneCalculator
     {
         public double Calculate(double first)

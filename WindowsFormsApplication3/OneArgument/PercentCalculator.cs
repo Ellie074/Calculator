@@ -1,5 +1,8 @@
 ﻿namespace WindowsFormsApplication3.OneArgument
 {
+    /// <summary>
+    /// translating numbers into percentages
+    /// </summary>
     public class PercentCalculator : IOneCalculator
     {
         public double Calculate(double first)
