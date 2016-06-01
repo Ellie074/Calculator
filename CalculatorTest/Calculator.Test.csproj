@@ -43,9 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="OneArgument\ECalculatorTest.cs" />
     <Compile Include="OneArgument\CosCalculatorTest.cs" />
     <Compile Include="OneArgument\CtgCalculatorTest.cs" />
+    <Compile Include="OneArgument\ECalculatorTest.cs" />
     <Compile Include="OneArgument\FactorialCalculatorTest.cs" />
     <Compile Include="OneArgument\LogCalculatorTest.cs" />
     <Compile Include="OneArgument\PercentCalculatorTest.cs" />

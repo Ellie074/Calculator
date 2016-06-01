@@ -6,7 +6,7 @@ namespace WindowsFormsApplication3.OneArgument
     {
         public double Calculate(double first)
         {
-            return Math.Log(first);
+            return Math.Log10(first);
         }
     }
 }
